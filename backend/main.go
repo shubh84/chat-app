@@ -11,7 +11,7 @@ import (
 func main() {
 	fmt.Println("Full stack chat project")
 	setUpRoutes()
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":9000", nil)
 }
 
 func setUpRoutes() {
